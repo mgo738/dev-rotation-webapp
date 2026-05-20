@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './university.component.scss'
 })
 export class UniversityComponent {
-
+  currentModule = 'Analytical Problem Solving'
+  currentUniLevel = 4
 }
