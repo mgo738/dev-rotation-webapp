@@ -1,5 +1,5 @@
-import { Component, inject } from '@angular/core';
-import {RouterLink, RouterOutlet, Router} from '@angular/router';
+import { Component} from '@angular/core';
+import {RouterLink, RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +8,5 @@ import {RouterLink, RouterOutlet, Router} from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Mikel\'s Portfolio';
-  router = inject(Router)
-
-  goToDetails() {
-    this.router.navigate(['/details']).then(() => {
-      alert("Navigated to Details")
-    });
-  }
+  title = 'Mikel\'s Portfolio'
 }
