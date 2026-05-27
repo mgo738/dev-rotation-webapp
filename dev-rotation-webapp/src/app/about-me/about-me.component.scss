@@ -5,8 +5,31 @@
 
 h1{
   padding-bottom: 20px;
+  font-size: 36px;
+}
+
+li{
+  text-indent: -20px;
+  line-height: 1.2;
 }
 
 ul{
-  text-indent: 0;
+  list-style-position: inside;
 }
+
+h3{
+  line-height: 0;
+  font-size: 22px;
+}
+
+.whoAmI{
+  padding-bottom: 15px;
+}
+
+.timeAtResonate{
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style-type: circle;
+}
+
