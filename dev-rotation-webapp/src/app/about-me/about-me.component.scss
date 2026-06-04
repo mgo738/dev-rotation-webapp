@@ -1,12 +1,12 @@
 *{
   line-height: 0.5;
   text-indent: 10px;
-  text-align: center;
 }
 
 h1{
   padding-bottom: 20px;
   font-size: 40px;
+  text-align: center;
 }
 
 li{
@@ -33,3 +33,24 @@ h3{
   list-style-type: circle;
 }
 
+.aboutMe{
+  display: flex;
+  width: 100%;
+}
+
+.text{
+  text-align: center;
+  width: 33.33%
+}
+
+.image{
+  width: 33.33%;
+}
+
+.image img{
+  width: 70%;
+  height: auto;
+  display: block;
+  padding-left: 15%;
+  padding-top: 20px;
+}
