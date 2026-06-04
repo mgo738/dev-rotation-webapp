@@ -42,7 +42,7 @@ export class SkillsRatingComponent {
       case 6:
         return '#ffe600'
       case 7:
-        return '#bbff00'
+        return '#c8ff00'
       case 8:
         return '#a6ff00'
       case 9:
