@@ -27,3 +27,20 @@ ul{
   list-style-position: inside;
   padding: 0;
 }
+
+.progressBar{
+  width: 50%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+
+.barFilling{
+  height: 100%;
+  background-color: #2da0ff;
+  border-radius: 10px;
+}

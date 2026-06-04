@@ -1,15 +1,15 @@
 <h1>Skills Ranking</h1>
 <p>I will be ranking my skills on various technologies from 0-10</p>
-<ul>
-  <li>HTML: 9/10</li>
-  <li>CSS: 6/10</li>
-  <li>JavaScript: 8/10</li>
-  <li>TypeScript: 8/10</li>
-  <li>Angular: 8/10</li>
-  <li>Java: 1/10</li>
-  <li>Spring Boot: 0/10</li>
-  <li>AWS: 7/10</li>
-  <li>SQL: 8/10</li>
-  <li>Python: 9/10</li>
-</ul>
+
+<div>
+  @for (skill of skills; track skill){
+    <p>{{ skill.name }}: {{ skill.rating }}/10</p>
+    <div>
+      <!-- Progress bar for skill rating -->
+      <div class="progressBar" >
+        <div class="barFilling" [style.width]="ratingToPercentage(skill.rating)" [style.backgroundColor]="fillingColour(skill.rating)"></div>
+      </div>
+    </div>
+  }
+</div>
 
